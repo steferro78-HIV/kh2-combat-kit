@@ -1,0 +1,9 @@
+[package]
+name = "first-combo"
+version = "0.1.0"
+edition = "2021"
+description = "The smallest program that uses kh2-combat-core: it prints one combo, tick by tick"
+publish = false
+
+[dependencies]
+kh2-combat-core = { path = "../kh2-combat-core" }

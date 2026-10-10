@@ -1,0 +1,20 @@
+# Everything generated from the game stays on your PC: never commit it.
+extracted/
+logs/
+
+# Game and converted files, wherever they end up.
+*.bin
+*.mset
+*.mdlx
+*.anb
+*.hed
+*.pkg
+*.catalog
+*.csv
+*.png
+*.dds
+
+# Build output.
+target/
+__pycache__/
+*.pyc

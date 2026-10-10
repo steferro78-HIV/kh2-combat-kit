@@ -1,0 +1,10 @@
+[package]
+name = "arena"
+version = "0.1.0"
+edition = "2021"
+description = "Arena di prova per kh2-combat-core: una capsula, un manichino, il pad"
+publish = false
+
+[dependencies]
+bevy = "0.16"
+kh2-combat-core = { path = "../kh2-combat-core" }

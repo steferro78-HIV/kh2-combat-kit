@@ -1,0 +1,5 @@
+[workspace]
+resolver = "2"
+members = ["kh2-combat-core", "first-combo", "arena"]
+# `cargo test` with no other option builds only the library: it stays fast.
+default-members = ["kh2-combat-core"]
